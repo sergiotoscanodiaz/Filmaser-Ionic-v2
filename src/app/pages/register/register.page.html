@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="toolbar">
+    <ion-buttons slot="end">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="title">¡Bienvenido a Filmaser!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" color="content">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <ion-icon name="person-add" class="person">
+        </ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list>
+    <ion-item>
+      <ion-input class="ion-text-center" clearInput placeholder="Correo electrónico" [(ngModel)]="email">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" class="ion-text-center" clearInput placeholder="Contraseña" [(ngModel)]="password">
+      </ion-input>
+    </ion-item>
+  </ion-list>
+
+  <br>
+
+  <ion-button expand="block" class="text capitalize" color="toolbar" shape="round" (click)="createUser()">
+    Aceptar
+  </ion-button>
+
+  <ion-button color="button" expand="block" class="capitalize" shape="round" href="/login">
+    Cancelar
+  </ion-button>
+
+</ion-content>

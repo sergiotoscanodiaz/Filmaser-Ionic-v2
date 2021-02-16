@@ -1,0 +1,23 @@
+<ion-menu side="end" menuId="main-menu" contentId="main">
+  <ion-header>
+    <ion-toolbar color="toolbar">
+      <ion-title>Opciones de Filmaser</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item *ngIf="authService.getCurrentUser() | async" (click)="logout()">
+        <ion-icon name="exit-outline" slot="start"></ion-icon>
+        <ion-label>Salir de la cuenta</ion-label>
+      </ion-item>
+      <ion-item *ngIf="authService.getCurrentUser() | async">
+        <ion-icon name="person-outline" slot="start"></ion-icon>
+        <ion-label>Perfil</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+        <ion-label>Sobre la aplicación</ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
