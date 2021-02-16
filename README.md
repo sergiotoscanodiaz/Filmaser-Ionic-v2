@@ -1,6 +1,7 @@
 # Filmaser-Ionic
 
 ACTUALIZACIÓN [16/02/2021] - VERSIÓN 2.0
+Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
 Filmaser es una aplicación realizada en Ionic para la asignatura de Acceso a Datos correspondiente al segundo año de Desarrollo de Aplicaciones Multiplataforma.
 
@@ -31,10 +32,6 @@ Esta es la pantalla que se ve al entrar con tu cuenta
 # Presentación
 
 ![welcome](./imagesREADME/welcome.png)
-
-Al bajar se puede filtrar por géneros y se ve la lista de series.
-
-![lista](./imagesREADME/lista.gif)
 
 # Filtrar por géneros
 
