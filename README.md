@@ -59,7 +59,7 @@ Cada usuario tendrá su propia lista.
 
 En el menú, por ahora, podemos salir de la aplicación.
 
-![logout](./imagesREADME/favorito.gif)
+![logout](./imagesREADME/logout.gif)
 
 # Listado de series
 
