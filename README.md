@@ -1,16 +1,32 @@
 # Filmaser-Ionic
 
-Filmaser es una aplicación hecha con Ionic para la asignatura de Acceso a Datos correspondiente al segundo año de Desarrollo de Aplicaciones Multiplataforma.
+Filmaser es una aplicación realizada en Ionic para la asignatura de Acceso a Datos correspondiente al segundo año de Desarrollo de Aplicaciones Multiplataforma.
 
 Esta aplicación consiste en una lista de series que puedes añadir a una lista de favoritos.
 
-¡Próximamente se añadirá la lista de pendientes para tener una mayor organización y otras funcionalidades más!
+Cuando entras a la aplicación se ve esta pantalla.
 
-Cuando entras se ve esta presentación de la aplicación.
+# Login
+
+![login](./imagesREADME/login.png)
+
+Si pulsamos a Crear una cuenta, accedemos a esta pantalla.
+
+# Registro
+
+![registro](./imagesREADME/registro.png)
+
+En el caso de que hayamos olvidado nuestra contraseña, podemos recuperarla facilitando nuestro correo.
+
+# Recuperar contraseña
+
+![reset](./imagesREADME/reset.png)
+
+Esta es la pantalla que se ve al entrar con tu cuenta
 
 # Presentación
 
-![presentacion](./imagesREADME/presentacion.png)
+![welcome](./imagesREADME/welcome.png)
 
 Al bajar se puede filtrar por géneros y se ve la lista de series.
 
@@ -26,21 +42,28 @@ Así se puede filtrar el género.
 
 Al pulsar sobre una serie aparece información de la misma y se puede añadir a tu lista.
 
-![infoAniadirSerie](./imagesREADME/infoAniadirSerie.gif)
+![info](./imagesREADME/info.gif)
 
 # Lista de favoritos
 
-En la lista de favoritos, se ve las series que se han añadido y se pueden borrar si es lo deseado.
+En la lista de favoritos, se verán las series que se han añadido y se pueden borrar si es lo deseado.
+Cada usuario tendrá su propia lista.
 
-![favoritos](./imagesREADME/favoritos.gif)
+![favorito](./imagesREADME/favorito.png)
+
+# Salir de la cuenta
+
+En el menú, por ahora, podemos salir de la aplicación.
+
+![logout](./imagesREADME/favorito.gif)
 
 # Listado de series
 
 Por ahora, la aplicación cuenta con estas series.
 
-![series](./imagesREADME/series.gif)
+![lista](./imagesREADME/lista.gif)
 
-Gracias por visitar este repositorio. 
+Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
 
 
 
