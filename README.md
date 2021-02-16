@@ -1,8 +1,12 @@
 # Filmaser-Ionic
 
+ACTUALIZACIÓN [16/02/2021] - VERSIÓN 2.0
+
 Filmaser es una aplicación realizada en Ionic para la asignatura de Acceso a Datos correspondiente al segundo año de Desarrollo de Aplicaciones Multiplataforma.
 
 Esta aplicación consiste en una lista de series que puedes añadir a una lista de favoritos.
+
+NOTA: El diseño de la aplicación es provisional y faltan funcionalidades por implementar. Este es un primer vistazo.
 
 Cuando entras a la aplicación se ve esta pantalla.
 
