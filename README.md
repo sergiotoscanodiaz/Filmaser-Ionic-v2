@@ -22,7 +22,7 @@ Si pulsamos a Crear una cuenta, accedemos a esta pantalla.
 
 ![registro](./imagesREADME/registro.png)
 
-En el caso de que hayamos olvidado nuestra contraseña, podemos recuperarla facilitando nuestro correo.
+En el caso de que se nos olvide nuestra contraseña, podemos recuperarla facilitando nuestro correo.
 
 # Recuperar contraseña
 
@@ -42,14 +42,14 @@ Así se puede filtrar el género.
 
 # Información de la serie
 
-Al pulsar sobre una serie aparece información de la misma y se puede añadir a tu lista.
+Al pulsar sobre una serie aparece información de la misma y se puede añadir a tu lista de favoritos.
 
 ![info](./imagesREADME/info.gif)
 
 # Lista de favoritos
 
 En la lista de favoritos, se verán las series que se han añadido y se pueden borrar si es lo deseado.
-Cada usuario tendrá su propia lista.
+Cada usuario tendrá su propia lista con sus series favoritas.
 
 ![favorito](./imagesREADME/favorito.png)
 
