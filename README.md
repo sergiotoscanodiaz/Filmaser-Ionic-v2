@@ -1,6 +1,6 @@
 # Filmaser-Ionic
 
-ACTUALIZACIÓN [16/02/2021] - VERSIÓN 2.0
+ACTUALIZACIÓN [18/02/2021] - VERSIÓN 2.0
 
 Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
