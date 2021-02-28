@@ -1,18 +1,12 @@
 # Filmaser-Ionic
 
-<<<<<<< HEAD
 ACTUALIZACIÓN [28/02/2021] - VERSIÓN 2.1
-=======
-ACTUALIZACIÓN [18/02/2021] - VERSIÓN 2.0.1
->>>>>>> 0c97ad84e660bb55ed75ce695e869c9623265638
 
 Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
 Filmaser es una aplicación realizada en Ionic para la asignatura de Acceso a Datos correspondiente al segundo año del grado superior de Desarrollo de Aplicaciones Multiplataforma.
 
 Esta aplicación consiste en una lista de series que puedes añadir a una lista de favoritos.
-
-NOTA: El diseño de la aplicación es provisional y faltan funcionalidades por implementar. Este es un primer vistazo.
 
 Cuando entras a la aplicación se ve esta pantalla.
 
@@ -32,56 +26,58 @@ En el caso de que se nos olvide nuestra contraseña, podemos recuperarla facilit
 
 ![reset](./imagesREADME/reset.png)
 
-Esta es la pantalla que se ve al entrar con tu cuenta
+Sin necesidad de inciar sesión, en el menú podemos acceder a la opción Sobre la aplicación que es una presentación.
+
+# Sobre la aplicación
+
+![info](./imagesREADME/info.gif)
+
+Al iniciar sesión, podemos acceder a más funcionalidades en el menú de la aplicación.
+
+# Menú de la aplicación
+
+![menu](./imagesREADME/menu.gif)
+
+Esta es la pantalla que se ve al entrar con tu cuenta.
 
 # Presentación
 
 ![welcome](./imagesREADME/welcome.png)
 
-# Filtrar por géneros
-
 Así se puede filtrar el género.
+
+# Filtrar por géneros
 
 ![genero](./imagesREADME/genero.gif)
 
-# Información de la serie
-
 Al pulsar sobre una serie aparece información de la misma y se puede añadir a tu lista de favoritos.
 
-![info](./imagesREADME/info.gif)
+# Información de la serie
+
+![infoSerie](./imagesREADME/infoSerie.gif)
+
+En la lista de favoritos, se verán las series que se han añadido y se pueden borrar si es lo deseado.
+Cada usuario tiene su propia lista con sus series favoritas.
 
 # Lista de favoritos
 
-En la lista de favoritos, se verán las series que se han añadido y se pueden borrar si es lo deseado.
-Cada usuario tendrá su propia lista con sus series favoritas.
-<<<<<<< HEAD
-
-![favorito](./imagesREADME/favorito.png)
-
-=======
-
-![favorito](./imagesREADME/favorito.png)
-
->>>>>>> 0c97ad84e660bb55ed75ce695e869c9623265638
-# Salir de la cuenta
+![aniadirSerie](./imagesREADME/aniadirSerie.gif)
 
 En el menú, por ahora, podemos salir de la aplicación.
 
-![logout](./imagesREADME/logout.gif)
+# Salir de la cuenta
 
-# Listado de series
+![logout](./imagesREADME/logout.gif)
 
 Por ahora, la aplicación cuenta con estas series.
 
+# Listado de series
+
 ![lista](./imagesREADME/lista.gif)
-<<<<<<< HEAD
 
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
 
-=======
 
-Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
->>>>>>> 0c97ad84e660bb55ed75ce695e869c9623265638
 
 
 
