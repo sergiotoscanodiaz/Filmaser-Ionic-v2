@@ -1,6 +1,10 @@
 # Filmaser-Ionic
 
+<<<<<<< HEAD
 ACTUALIZACIÓN [28/02/2021] - VERSIÓN 2.1
+=======
+ACTUALIZACIÓN [18/02/2021] - VERSIÓN 2.0.1
+>>>>>>> 0c97ad84e660bb55ed75ce695e869c9623265638
 
 Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
@@ -50,9 +54,15 @@ Al pulsar sobre una serie aparece información de la misma y se puede añadir a 
 
 En la lista de favoritos, se verán las series que se han añadido y se pueden borrar si es lo deseado.
 Cada usuario tendrá su propia lista con sus series favoritas.
+<<<<<<< HEAD
 
 ![favorito](./imagesREADME/favorito.png)
 
+=======
+
+![favorito](./imagesREADME/favorito.png)
+
+>>>>>>> 0c97ad84e660bb55ed75ce695e869c9623265638
 # Salir de la cuenta
 
 En el menú, por ahora, podemos salir de la aplicación.
@@ -64,9 +74,14 @@ En el menú, por ahora, podemos salir de la aplicación.
 Por ahora, la aplicación cuenta con estas series.
 
 ![lista](./imagesREADME/lista.gif)
+<<<<<<< HEAD
 
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
 
+=======
+
+Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
+>>>>>>> 0c97ad84e660bb55ed75ce695e869c9623265638
 
 
 
