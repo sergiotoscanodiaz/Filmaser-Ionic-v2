@@ -1,5 +1,18 @@
 [
   {
+    "id": 26,
+    "generos": [
+      "Superhéroes",
+      "Sitcom",
+      "Drama",
+      "Acción"
+    ],  
+    "descripcion": "Combinando el estilo clásico de las sitcoms con el MCU (Universo Cinematográfico de Marvel), cuenta la historia Wanda Maximoff y Vision, dos seres con superpoderes que viven una vida idílica en las afueras de una ciudad hasta que un día comienzan a sospechar que no todo es lo que parece.",
+    "titulo": "Wandavision",
+    "imagen": "wandavision.jpg",
+    "anio": 2021
+  },    
+  {
     "id": 1,
     "generos": [
       "Suspenso",
@@ -319,5 +332,5 @@
     "titulo": "Better Call Saul",
     "imagen": "bettercallsaul.jpg",
     "anio": 2015
-  }   
+  }
 ]

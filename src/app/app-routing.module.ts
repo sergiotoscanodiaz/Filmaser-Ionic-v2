@@ -13,17 +13,29 @@ const routes: Routes = [
                           canActivate: [AngularFireAuthGuard],
                           data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./pages/perfil/perfil.module')
+                          .then( m => m.PerfilPageModule),
+                          canActivate: [AngularFireAuthGuard],
+                          data: { authGuardPipe: redirectUnauthorizedToLogin} 
+  },
   { path: 'favoritos', 
     loadChildren: () => import('./pages/favoritos/favoritos.module')
-                    .then( m => m.FavoritosPageModule),
-                    canActivate: [AngularFireAuthGuard],
-                    data: { authGuardPipe: redirectUnauthorizedToLogin } 
+                          .then( m => m.FavoritosPageModule),
+                          canActivate: [AngularFireAuthGuard],
+                          data: { authGuardPipe: redirectUnauthorizedToLogin } 
+  },
+  {
+    path: 'info',
+    loadChildren: () => import('./pages/info/info.module').then( m => m.InfoPageModule)
   },
   {
     path: 'login',
     loadChildren: () => import('./pages/login/login.module')
                           .then( m => m.LoginPageModule)
-  },  {
+  },
+  {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
   },
@@ -31,8 +43,12 @@ const routes: Routes = [
     path: 'reset-password',
     loadChildren: () => import('./pages/reset-password/reset-password.module').then( m => m.ResetPasswordPageModule)
   },
-
-
+  {
+    path: '**',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  
 ];
 
 @NgModule({

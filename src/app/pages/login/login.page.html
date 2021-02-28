@@ -3,11 +3,11 @@
     <ion-buttons slot="end">
       <ion-menu-button menu="main-menu"></ion-menu-button>
       </ion-buttons>
-    <ion-title>¡Bienvenido de nuevo!</ion-title> 
+    <ion-title>Filmaser</ion-title> 
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="content" class="ion-padding">
+<ion-content class="ion-padding">
   <ion-grid>
     <ion-row>
       <ion-col class="ion-text-center">        
@@ -23,19 +23,20 @@
     </ion-item>
 
     <ion-item>
-      <ion-input type="password" class="ion-text-center" clearInput placeholder="Contraseña"
+      <ion-input [type]="passwordType" class="ion-text-center" clearInput placeholder="Contraseña"
         (keyup.enter)="login()" [(ngModel)]="password">
       </ion-input>
+      <ion-icon name="eye" color="gray" (click)="togglePassword()"> </ion-icon>
     </ion-item>
   </ion-list>
-
-  <br>
 
   <ion-button expand="block" class="text capitalize" color="toolbar" shape="round" (click)="login()">
     Entrar
   </ion-button>
 
-  <br>
+  <ion-item id="spinner">
+    <ion-spinner *ngIf="spinner == true"></ion-spinner>
+  </ion-item>
 
   <div class="ion-text-center">
     <a href="/register">

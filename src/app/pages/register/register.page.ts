@@ -9,8 +9,12 @@ import { Router } from '@angular/router'
 })
 export class RegisterPage implements OnInit {
 
+  spinner: boolean = false;
+  passwordType: string = 'password';
+  passwordShown: boolean = false;
   email: string;
   password: string;
+  password2: string = "";
 
   constructor(
     private authService: AuthService,
@@ -20,7 +24,19 @@ export class RegisterPage implements OnInit {
   ngOnInit() {
   }
 
+  togglePassword() {
+    if(this.passwordShown) {
+      this.passwordShown=false;
+      this.passwordType = 'password';
+    } else {
+      this.passwordShown=true;
+      this.passwordType = 'text';
+
+    }
+  }
+
   createUser() {
+    this.spinner = true;
     this.authService.createUser(this.email, this.password)
         .then(() => this.router.navigateByUrl('/home'));
   }

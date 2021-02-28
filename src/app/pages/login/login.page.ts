@@ -10,22 +10,27 @@ import { AuthService } from 'src/app/service/auth.service';
 })
 export class LoginPage implements OnInit {
 
+  spinner: boolean = false;
+  email: string;
+  password: string;
+  passwordType: string = 'password';
+  passwordShown: boolean = false;
+
   constructor(
     private authService: AuthService,
     private router: Router,
     public alertController: AlertController
   ) { }
 
-  email: string;
-  password: string;
-
   ngOnInit() {
   }
 
   async login() {
+    this.spinner = true;
     try {
       await this.authService.login(this.email, this.password);
       this.router.navigateByUrl('/home');
+      this.spinner = true;
     } catch (error) {
       console.log(error);
       this.presentAlert();
@@ -41,6 +46,17 @@ export class LoginPage implements OnInit {
     });
 
     await alert.present();
+  }
+
+  togglePassword() {
+    if(this.passwordShown) {
+      this.passwordShown=false;
+      this.passwordType = 'password';
+    } else {
+      this.passwordShown=true;
+      this.passwordType = 'text';
+
+    }
   }
 
 }

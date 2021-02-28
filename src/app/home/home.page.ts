@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { SerieService } from '../service/serie/serie.service';
+import { SerieService } from '../service/serie.service';
 import { Serie } from '../model/serie';
 import { AlertController } from '@ionic/angular';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-home',
@@ -18,8 +19,7 @@ export class HomePage {
   index: number;
 
   constructor(private router: Router,
-    private service: SerieService,
-    private alert: AlertController) {
+    private service: SerieService) {
       this.generos = this.service.getGeneros();
       this.getData();
       this.buscarGenero = "todos";
@@ -45,30 +45,8 @@ export class HomePage {
   }
 
   addToFavoritos(serie: Serie) {
-    this.service.addToFavoritos(serie);
+    this.service.addToFavoritos(serie)
+    .catch(error => console.error(error));
   }
 
- /* deleteFromFavoritos(serie: Serie) {
-    this.service.deleteFromFavoritos(serie);
-  }
-
-  async alertDeleteFavorito(serie: Serie) {
-    const alert = await this.alert.create({
-      header: `¿Eliminar ${serie.titulo} de los favoritos?`,
-      buttons: [
-        {
-          text: 'Cancelar',
-          role: 'cancel',
-          cssClass: 'secondary'
-        }, {
-          text: 'Quitar',
-          cssClass: 'danger',
-          handler: () => {
-            this.deleteFromFavoritos(serie);
-          }
-        }
-      ]
-    });
-    await alert.present();
-  }*/
 }

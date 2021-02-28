@@ -1,21 +1,29 @@
 <ion-menu side="end" menuId="main-menu" contentId="main">
   <ion-header>
     <ion-toolbar color="toolbar">
-      <ion-title>Opciones de Filmaser</ion-title>
+      <ion-title>Opciones</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-content>
     <ion-list>
-      <ion-item *ngIf="authService.getCurrentUser() | async" (click)="logout()">
-        <ion-icon name="exit-outline" slot="start"></ion-icon>
+      <ion-item *ngIf="authService.getCurrentUser() | async" (click)="alertLogout()">
+        <ion-icon color="danger" name="exit-outline" slot="start"></ion-icon>
         <ion-label>Salir de la cuenta</ion-label>
       </ion-item>
-      <ion-item *ngIf="authService.getCurrentUser() | async">
-        <ion-icon name="person-outline" slot="start"></ion-icon>
-        <ion-label>Perfil</ion-label>
+      <ion-item href="/home" *ngIf="authService.getCurrentUser() | async">
+        <ion-icon color="success" name="home-outline" slot="start"></ion-icon>
+        <ion-label>Inicio</ion-label>
       </ion-item>
-      <ion-item>
-        <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+      <ion-item href="/perfil" *ngIf="authService.getCurrentUser() | async">
+        <ion-icon color="content" name="person-outline" slot="start"></ion-icon>
+        <ion-label>Perfil - <i>Próximamente</i></ion-label>
+      </ion-item>
+      <ion-item href="/favoritos" *ngIf="authService.getCurrentUser() | async">
+        <ion-icon color="warning" name="star-outline" slot="start"></ion-icon>
+        <ion-label>Lista de favoritos</ion-label>
+      </ion-item>
+      <ion-item href="/info">
+        <ion-icon color="info" name="information-circle-outline" slot="start"></ion-icon>
         <ion-label>Sobre la aplicación</ion-label>
       </ion-item>
     </ion-list>

@@ -16,14 +16,14 @@
     <ion-card-header>
       <ion-card-title>
         <ion-icon name="hand-left"></ion-icon>
-        <b>¡BIENVENIDO A FILMASER!</b>
+        <b>¡Buen día <b>FILMASERIÉFILO!</b></b>
         <ion-icon name="hand-right"></ion-icon>
       </ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      En esta página podrás ver un buen catálogo de series. Además, puedes añadir las que te gusten a tu lista de
-      favoritos.<br>
-      ¡Buen día <b>FILMASERIÉFILO!</b><br>
+      ¿Qué te apetece ver?<br>
+      <i>Iremos añadiendo más series próximamente.</i><br>
+      <i><b>Por ahora contamos con 26 series</b></i>
     </ion-card-content>
   </ion-card>
 
@@ -51,16 +51,10 @@
         <p class="ion-text-justify ion-padding"><i>{{ serie.descripcion }}</i></p>
         <h2>Año</h2>
         <p class="ion-text-justify ion-padding"><i>{{ serie.anio }}</i></p>
-        <ion-button *ngIf="!serie.esFav" color="button" (click)="addToFavoritos(serie)">
+        <ion-button color="button" (click)="addToFavoritos(serie)">
           <ion-icon name="star-outline"></ion-icon>
           <ion-icon name="blank"></ion-icon>
           Añadir a tu lista
-        </ion-button>
-        <ion-button *ngIf="serie.esFav" color="button">
-          <!-- (click)="alertDeleteFavorito(serie)" -->
-          <ion-icon name="star"></ion-icon>
-          <ion-icon name="blank"></ion-icon>
-          Ya está en tu lista de favoritos {{serie.titulo}}
         </ion-button>
       </div>
       <ion-item-divider color="content"></ion-item-divider>
