@@ -77,6 +77,11 @@ Por ahora, la aplicación cuenta con estas series.
 
 ![lista](./imagesREADME/lista.gif)
 
+# Video explicativo
+
+En este vídeo vemos las funcionalidades de la aplicación y un poco del código:
+https://www.youtube.com/watch?v=Df99036O5Hk
+
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
 
 
