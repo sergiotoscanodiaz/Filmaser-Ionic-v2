@@ -65,15 +65,12 @@ Cada usuario tiene su propia lista con sus series favoritas.
 
 ![aniadirSerie](./imagesREADME/aniadirSerie.gif)
 
-<<<<<<< HEAD
 Se pueden borrar series de la lista si es lo deseado.
 
 # Borrar series
 
 ![borrarSerie](./imagesREADME/borrarSerie.gif)
 
-=======
->>>>>>> 93071d468865ea0c8e709c063f3b15700b83a139
 Podemos salir de la aplicación y volver a la pantalla de inicio de sesión.
 
 # Salir de la cuenta
@@ -86,20 +83,11 @@ Por ahora, la aplicación cuenta con estas series.
 
 ![lista](./imagesREADME/lista.gif)
 
+--------------------------------------------------------------------
+
 # Video explicativo
 
 En este vídeo vemos las funcionalidades de la aplicación y un poco del código:
 https://www.youtube.com/watch?v=Df99036O5Hk
 
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
-
-
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 93071d468865ea0c8e709c063f3b15700b83a139
-
-
