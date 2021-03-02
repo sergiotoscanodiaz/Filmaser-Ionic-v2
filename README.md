@@ -1,10 +1,6 @@
 # Filmaser-Ionic
 
-<<<<<<< HEAD
 ACTUALIZACIÓN [2/03/2021] - VERSIÓN 2.2
-=======
-ACTUALIZACIÓN [28/02/2021] - VERSIÓN 2.1
->>>>>>> 344e1a1f9fa955ab33db4684cd3d15f2599cb5ec
 
 Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
@@ -26,13 +22,13 @@ Si pulsamos a Crear una cuenta, accedemos a esta pantalla.
 
 ![registro](./imagesREADME/registro.png)
 
-En el caso de que se nos olvide nuestra contraseña, podemos recuperarla facilitando nuestro correo.
+En el caso de que se nos olvide nuestra contraseña, podemos recuperarla facilitando nuestro correo electrónico.
 
 # Recuperar contraseña
 
 ![reset](./imagesREADME/reset.png)
 
-Sin necesidad de inciar sesión, en el menú podemos acceder a la opción Sobre la aplicación que es una presentación.
+Sin necesidad de iniciar sesión, en el menú podemos acceder a la opción "Sobre la aplicación" que es una presentación de Filmaser.
 
 # Sobre la aplicación
 
@@ -69,7 +65,13 @@ Cada usuario tiene su propia lista con sus series favoritas.
 
 ![aniadirSerie](./imagesREADME/aniadirSerie.gif)
 
-Podemos salir de la aplicación y volver a la pantalla de incio de sesión.
+Se pueden borrar series de la lista si es lo deseado.
+
+# Borrar series
+
+![borrarSerie](./imagesREADME/borrarSerie.gif)
+
+Podemos salir de la aplicación y volver a la pantalla de inicio de sesión.
 
 # Salir de la cuenta
 
@@ -87,12 +89,10 @@ En este vídeo vemos las funcionalidades de la aplicación y un poco del código
 https://www.youtube.com/watch?v=Df99036O5Hk
 
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 344e1a1f9fa955ab33db4684cd3d15f2599cb5ec
+
 
 
 
