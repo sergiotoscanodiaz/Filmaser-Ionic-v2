@@ -1,10 +1,6 @@
 # Filmaser-Ionic
 
-<<<<<<< HEAD
 ACTUALIZACIÓN [2/03/2021] - VERSIÓN 2.2
-=======
-ACTUALIZACIÓN [28/02/2021] - VERSIÓN 2.1
->>>>>>> 344e1a1f9fa955ab33db4684cd3d15f2599cb5ec
 
 Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
@@ -87,12 +83,7 @@ En este vídeo vemos las funcionalidades de la aplicación y un poco del código
 https://www.youtube.com/watch?v=Df99036O5Hk
 
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> 344e1a1f9fa955ab33db4684cd3d15f2599cb5ec
 
 
 
