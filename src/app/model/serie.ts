@@ -1,5 +1,5 @@
 export class Serie {
-    id: number;
+    id?: number;
     titulo: string;
     imagen: string;
     descripcion: string;

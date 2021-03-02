@@ -44,10 +44,6 @@ export class SerieService {
         });
       }
     );
-
-    /*this.getFavoritos().then(
-      data => this.favoritos = data == null ? [] : data
-    );*/
   }
 
   getGeneros(): string[] {
@@ -59,8 +55,6 @@ export class SerieService {
   }
 
   getFavoritos(): Observable<Serie[]> {
-    //return this.storage.get('favoritos');
-    //return this.db.collection<Serie>('series').valueChanges();
     return this.db.collection<Serie>('users/' + this.userId + '/series').snapshotChanges()
       .pipe(
         map(
@@ -75,17 +69,8 @@ export class SerieService {
   }
 
   addToFavoritos(serie: Serie): Promise<DocumentReference> {
-    //serie.esFav = true;
-    //this.favoritos.push(serie);
-    //return this.storage.set('favoritos', this.favoritos);
     return this.db.collection<Serie>('users/' + this.userId + '/series').add(serie);
   }
-
-  /*deleteFromFavoritos(serie: Serie) {
-   serie.esFav = false;
-   this.favoritos = this.favoritos.filter(f => f.id != serie.id);
-   return this.storage.set('favoritos', this.favoritos);
- }*/
 
   public getSerieById(id: string): Observable<Serie> {
     return this.db.collection('users/' + this.userId + '/series').doc<Serie>(id).valueChanges();
@@ -100,6 +85,7 @@ export class SerieService {
   }
 
   public deleteSerieById(id: string): Promise<void> {
+    console.log("Este es el id: " + id);
     return this.db.collection('users/' + this.userId + '/series').doc(id).delete();
   }
 

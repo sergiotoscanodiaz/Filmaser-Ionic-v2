@@ -22,12 +22,12 @@ export class FavoritosPage implements OnInit {
   series: Serie[];
 
   constructor(
-    private service: SerieService,
+    private serieService: SerieService,
     private alert: AlertController,
     private db: AngularFirestore,
     private authService: AuthService) {
       this.authService.getCurrentUser().subscribe(
-        () => this.favoritos = service.getFavoritos(),
+        () => this.favoritos = serieService.getFavoritos(),
       );
   }
 
