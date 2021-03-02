@@ -22,13 +22,13 @@ Si pulsamos a Crear una cuenta, accedemos a esta pantalla.
 
 ![registro](./imagesREADME/registro.png)
 
-En el caso de que se nos olvide nuestra contraseña, podemos recuperarla facilitando nuestro correo.
+En el caso de que se nos olvide nuestra contraseña, podemos recuperarla facilitando nuestro correo electrónico.
 
 # Recuperar contraseña
 
 ![reset](./imagesREADME/reset.png)
 
-Sin necesidad de inciar sesión, en el menú podemos acceder a la opción Sobre la aplicación que es una presentación.
+Sin necesidad de iniciar sesión, en el menú podemos acceder a la opción "Sobre la aplicación" que es una presentación de Filmaser.
 
 # Sobre la aplicación
 
