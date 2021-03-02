@@ -76,10 +76,6 @@ export class SerieService {
     return this.db.collection('users/' + this.userId + '/series').doc<Serie>(id).valueChanges();
   }
 
-  getSeriesfb(): Serie[] {
-    return this.series;
-  }
-
   getSerie(nombre: string) {
     return this.series.filter(s => s.titulo == nombre)[0];
   }
