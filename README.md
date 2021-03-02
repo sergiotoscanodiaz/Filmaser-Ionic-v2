@@ -65,7 +65,7 @@ Cada usuario tiene su propia lista con sus series favoritas.
 
 ![aniadirSerie](./imagesREADME/aniadirSerie.gif)
 
-Podemos salir de la aplicación y volver a la pantalla de incio de sesión.
+Podemos salir de la aplicación y volver a la pantalla de inicio de sesión.
 
 # Salir de la cuenta
 
