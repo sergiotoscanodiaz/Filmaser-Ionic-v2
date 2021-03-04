@@ -58,7 +58,7 @@ Al pulsar sobre una serie aparece información de la misma y se puede añadir a 
 
 ![infoSerie](./imagesREADME/infoSerie.gif)
 
-En la lista de favoritos, se verán las series que se han añadido y se pueden borrar si es lo deseado.
+En la lista de favoritos, se verán las series que se han añadido.
 Cada usuario tiene su propia lista con sus series favoritas.
 
 # Lista de favoritos
