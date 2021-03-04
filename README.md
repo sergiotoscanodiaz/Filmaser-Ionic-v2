@@ -71,6 +71,13 @@ Se pueden borrar series de la lista si es lo deseado.
 
 ![borrarSerie](./imagesREADME/borrarSerie.gif)
 
+En el perfil podemos configurar un nombre de usuario. 
+Esta parte está realizada con el almacenamiento local:
+
+# Perfil
+
+![perfil](./imagesREADME/perfil.gif)
+
 Podemos salir de la aplicación y volver a la pantalla de inicio de sesión.
 
 # Salir de la cuenta
