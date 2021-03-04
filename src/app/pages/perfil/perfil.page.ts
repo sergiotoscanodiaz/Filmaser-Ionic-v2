@@ -21,10 +21,10 @@ export class PerfilPage implements OnInit {
   }
 
   cargar(){
-    this.storage.get(this.dato).then((dato) => {
-        this.dato = dato;
-        console.log('Tu nombre de usuario es: ' + dato);    
-    });
+      this.storage.get(this.dato).then((dato) => {
+          this.dato = dato;
+          console.log('Tu nombre de usuario es: ' + dato);    
+      });
   }
 
   borrar(){
