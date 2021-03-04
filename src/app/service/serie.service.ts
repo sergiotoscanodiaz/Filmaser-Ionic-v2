@@ -72,21 +72,16 @@ export class SerieService {
     return this.db.collection<Serie>('users/' + this.userId + '/series').add(serie);
   }
 
-  public getSerieById(id: string): Observable<Serie> {
-    return this.db.collection('users/' + this.userId + '/series').doc<Serie>(id).valueChanges();
-  }
-
   getSerie(nombre: string) {
     return this.series.filter(s => s.titulo == nombre)[0];
   }
 
   public deleteSerieById(id: string): Promise<void> {
-    console.log("Este es el id: " + id);
+    console.log("Se ha eliminado la serie con el id: " + id);
     return this.db.collection('users/' + this.userId + '/series').doc(id).delete();
   }
 
   async alertDeleteFavorito(id: string, nombre: string) {
-    console.log("Alerta");
     const alert = await this.alert.create({
       header: 'Borrar serie',
       message: `¿Estás seguro que quieres borrar la serie <strong> ${nombre}</strong> de tu lista de favoritos?`,
@@ -97,7 +92,6 @@ export class SerieService {
         }, {
           text: 'Aceptar',
           handler: () => {
-            console.log("Se ha eliminado la serie " + id);
             this.deleteSerieById(id);
           }
         }

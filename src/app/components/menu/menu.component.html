@@ -16,7 +16,7 @@
       </ion-item>
       <ion-item href="/perfil" *ngIf="authService.getCurrentUser() | async">
         <ion-icon color="content" name="person-outline" slot="start"></ion-icon>
-        <ion-label>Perfil - <i>Próximamente</i></ion-label>
+        <ion-label>Perfil</ion-label>
       </ion-item>
       <ion-item href="/favoritos" *ngIf="authService.getCurrentUser() | async">
         <ion-icon color="warning" name="star-outline" slot="start"></ion-icon>

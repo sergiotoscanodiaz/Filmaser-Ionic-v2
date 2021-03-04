@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { SerieService } from '../service/serie.service';
 import { Serie } from '../model/serie';
-import { AlertController } from '@ionic/angular';
-import { AngularFirestore } from '@angular/fire/firestore';
+
 
 @Component({
   selector: 'app-home',
@@ -18,8 +17,7 @@ export class HomePage {
   clicked: boolean;
   index: number;
 
-  constructor(private router: Router,
-    private service: SerieService) {
+  constructor(private service: SerieService) {
       this.generos = this.service.getGeneros();
       this.getData();
       this.buscarGenero = "todos";

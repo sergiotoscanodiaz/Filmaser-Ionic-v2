@@ -8,11 +8,18 @@
 </ion-header>
 
 <ion-content color="content" class="ion-text-center">
+  <p>Aquí puedes guardar tu nombre de usuario<br>Si tienes uno cárgalo<br>Tu nombre de usuario actual: <b>{{dato}}</b></p>
+  <ion-item>
+    <ion-input [(ngModel)]="inputNombre" placeholder="Teclea tu nombre de usuario"></ion-input>
+  </ion-item>
+  <ion-button (click)="guardar()">Guardar</ion-button>
+  <ion-button (click)="cargar()">Cargar</ion-button>
+  <ion-button (click)="borrar()">Borrar</ion-button>
   <h1><b>EN MANTENIMIENTO</b></h1>
   <ion-icon class="mantenimiento" name="build-outline"></ion-icon>
-  <p>Vuelve aquí en la próxima actualización que traerá novedades y mejoras de rendimiento
-  </p>
-  <img src="assets/img/logo.png" height="300">
+  <p>Vuelve aquí en la próxima actualización que traerá novedades y mejoras de rendimiento</p>
   <p>¡Gracias por elegirnos!<br><i>EL EQUIPO DE FILMASER</i></p>
+  <img src="assets/img/logo.png" height="100">
+ 
 
 </ion-content>
