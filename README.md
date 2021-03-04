@@ -1,6 +1,6 @@
 # Filmaser-Ionic
 
-ACTUALIZACIÓN [2/03/2021] - VERSIÓN 2.2
+ACTUALIZACIÓN [4/03/2021] - VERSIÓN 2.5: Añadido el Local Storage en el Perfil e imágenes del README actualizadas.
 
 Versión anterior: https://github.com/sergiotoscanodiaz/Filmaser-Ionic
 
@@ -93,7 +93,7 @@ Por ahora, la aplicación cuenta con estas series.
 # Video explicativo
 
 En este vídeo vemos las funcionalidades de la aplicación y un poco del código:
-https://www.youtube.com/watch?v=Df99036O5Hk
+https://www.youtube.com/watch?v=fJmWwdBCVcI
 
 Gracias por visitar este repositorio. ¡Deja una estrellita si te ha gustado :)!
 
